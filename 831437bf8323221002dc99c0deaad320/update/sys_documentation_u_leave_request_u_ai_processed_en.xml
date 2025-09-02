@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_ai_processed" label="AI Processed" language="en" table="u_leave_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ai_processed</element>
+            <help/>
+            <hint/>
+            <label>AI Processed</label>
+            <language>en</language>
+            <name>u_leave_request</name>
+            <plural>AI Processed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 06:06:11</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>AI Processed</sys_name>
+            <sys_package display_value="AI Powered Leave Request Analyzer" source="831437bf8323221002dc99c0deaad320">831437bf8323221002dc99c0deaad320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AI Powered Leave Request Analyzer">831437bf8323221002dc99c0deaad320</sys_scope>
+            <sys_update_name>sys_documentation_u_leave_request_u_ai_processed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-01 16:08:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

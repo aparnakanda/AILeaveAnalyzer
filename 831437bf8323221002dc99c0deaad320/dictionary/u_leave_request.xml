@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3d4f7338363221002dc99c0deaad3b5" label="Leave Request" max_length="40" name="u_leave_request" type="collection">
+        <element label="Start Date" mandatory="true" max_length="40" name="u_start_date" reference_qual="null" reference_qual_condition="null" type="glide_date"/>
+        <element choice="1" label="AI Recommendation" max_length="40" name="u_ai_recommendation" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deny" value="deny"/>
+                <element inactive_on_update="false" label="Approve" value="approve"/>
+                <element inactive_on_update="false" label="Review" value="review"/>
+            </choice>
+        </element>
+        <element choice="1" label="Manager Decision" max_length="40" name="u_manager_decision" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element label="AI Raw Response" max_length="8000" name="u_ai_raw_response" type="string"/>
+        <element label="End Date" mandatory="true" max_length="40" name="u_end_date" reference_qual="null" reference_qual_condition="null" type="glide_date"/>
+        <element label="AI Confidence" max_length="20" name="u_ai_confidence" reference_qual="null" reference_qual_condition="null" type="decimal"/>
+        <element label="Reason" mandatory="true" max_length="4000" name="u_reason" type="string"/>
+        <element label="Employee Id" mandatory="true" max_length="40" name="u_emp_id" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element display="true" label="Manager" max_length="32" name="u_manager" reference="u_manager" reference_qual="null" reference_qual_condition="null" type="reference"/>
+        <element label="No Of Days" mandatory="true" max_length="40" name="u_no_of_days" type="integer"/>
+        <element label="AI Explanation" max_length="4000" name="u_ai_explanation" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element choice="1" label="AI Processed" max_length="40" name="u_ai_processed" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="False" value="false"/>
+                <element inactive_on_update="false" label="True" value="true"/>
+            </choice>
+        </element>
+        <element label="Employee Name" mandatory="true" max_length="32" name="u_emp_name" reference="sys_user" reference_qual="null" reference_qual_condition="null" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_emp_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_manager"/>
+        </index>
+    </element>
+</database>

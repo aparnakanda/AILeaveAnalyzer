@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>Leave request manager</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Leave request manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 05:54:21</sys_created_on>
+        <sys_id>df44fb338323221002dc99c0deaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave request manager</sys_name>
+        <sys_package display_value="AI Powered Leave Request Analyzer" source="831437bf8323221002dc99c0deaad320">831437bf8323221002dc99c0deaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Powered Leave Request Analyzer">831437bf8323221002dc99c0deaad320</sys_scope>
+        <sys_update_name>sys_user_role_df44fb338323221002dc99c0deaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 05:54:21</sys_updated_on>
+    </sys_user_role>
+</record_update>
