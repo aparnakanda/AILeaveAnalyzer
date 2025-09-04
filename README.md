@@ -62,7 +62,7 @@ ai-leave-request-analyzer/
 
 ```json
 {
-  "inputs": "Hi, I need annual leave from 12 Sep to 16 Sep for a family event."
+  "inputs": "I am not feeling well and would like to take sick leave from 8 Sep to 10 Sep due to fever and rest."
 }
 ```
 
