@@ -33,9 +33,9 @@ ai-leave-request-analyzer/
 │  ├─ tables/
 │  │   └─ u_leave_request (custom table)
 │  ├─ scripts/
-│  │   ├─ Script Includes (API calls, data parsing)
 │  │   ├─ Business Rules (triggers)
 │  │   └─ Flow Designer actions
+│  │  
 │  └─ rest_messages/
 ├─ docs/
 │  ├─ architecture.png
