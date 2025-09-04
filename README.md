@@ -94,23 +94,3 @@ ai-leave-request-analyzer/
 
 ---
 
-## 🗺 Roadmap
-
-* [ ] Add support for multilingual requests (EN → EN/HI/TE)
-* [ ] Improve accuracy with fine-tuned domain-specific models
-* [ ] Extend integration with ServiceNow Virtual Agent
-* [ ] Dashboard for tracking requests and recommendations
-
----
-
-## 🤝 Contributing
-
-1. Fork repo
-2. Submit pull request with detailed description
-3. Ensure update sets are exportable
-
----
-
-## 📜 License
-
-MIT (or organization-specific license). See `LICENSE`.
